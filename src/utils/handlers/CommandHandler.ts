@@ -21,8 +21,6 @@ export default class CommandHandler {
 
 				const command = new CommandClass();
 
-				command.category = category;
-
 				this.client.commands.set(command.config.name, command);
 				console.log(`[${new Date().toLocaleString()}]: ${command.config.name} loaded`);
 
