@@ -14,7 +14,7 @@ export class Event {
 			name: this.name,
 			disabled: this.disabled
 
-		}
+		};
 
 	}
 

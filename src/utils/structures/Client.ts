@@ -2,7 +2,8 @@ import { Client as DiscordClient, ClientOptions, Collection } from 'discord.js';
 import CommandHandler from '../handlers/CommandHandler';
 import EventHandler from '../handlers/EventHandler';
 import { config } from 'dotenv';
-import { Command }  from '../../types';
+import { Command } from '../../types';
+
 config();
 
 export default class extends DiscordClient {

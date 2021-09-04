@@ -1,2 +1,2 @@
 export * from './utils/types/Command';
-export * from './utils/types/Event'
+export * from './utils/types/Event';

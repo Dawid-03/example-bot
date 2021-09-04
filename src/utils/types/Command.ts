@@ -37,7 +37,7 @@ export class Command {
 			category: this.category,
 			disabled: this.disabled
 
-		}
+		};
 
 	}
 
@@ -48,7 +48,7 @@ export class Command {
 			description: this.description,
 			usage: this.usage
 
-		}
+		};
 
 	}
 

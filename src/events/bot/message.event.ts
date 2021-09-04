@@ -9,7 +9,7 @@ export default class extends Event {
 
 		super();
 
-		this.name = 'messageCreate'
+		this.name = 'messageCreate';
 
 	}
 

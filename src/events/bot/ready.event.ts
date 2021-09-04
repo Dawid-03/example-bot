@@ -3,18 +3,18 @@ import { client } from '../../index';
 
 export default class extends Event {
 
-		constructor () {
+	constructor () {
 
-			super();
+		super();
 
-			this.name = 'ready'
+		this.name = 'ready';
 
-		}
+	}
 
-		public async run () {
+	public async run () {
 
-			console.log(`[${new Date().toLocaleString()}]: ${client.user?.tag} is ready!`);
+		console.log(`[${new Date().toLocaleString()}]: ${client.user?.tag} is ready!`);
 
-		}
+	}
 
 }

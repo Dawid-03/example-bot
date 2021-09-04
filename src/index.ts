@@ -11,4 +11,4 @@ export const client: Client = new Client({
 	allowedMentions: {
 		repliedUser: false
 	}
-})
+});
