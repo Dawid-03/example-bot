@@ -8,7 +8,7 @@ config();
 
 export default class extends DiscordClient {
 
-	commands: Collection<string, Command>;
+	public commands: Collection<string, Command>;
 
 	constructor (options: ClientOptions) {
 
