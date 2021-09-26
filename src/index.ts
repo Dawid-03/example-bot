@@ -1,13 +1,10 @@
 import Client from './utils/structures/Client';
 
-import { IntentsString, Intents } from 'discord.js';
-
-const intents: IntentsString[] = [];
-Object.keys(Intents.FLAGS).forEach(key => intents.push(Intents.FLAGS[key]));
+import { Intents } from 'discord.js';
 
 export const client: Client = new Client({
 	partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
-	intents,
+	intents: Object.values(Intents.FLAGS),
 	allowedMentions: {
 		repliedUser: false
 	}
